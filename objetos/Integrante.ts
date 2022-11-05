@@ -1,4 +1,4 @@
-abstract class Integrante {
+export abstract class Integrante {
 
     //Atributos de clase
 
