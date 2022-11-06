@@ -5,9 +5,8 @@ export class Deportista extends Integrante {
 
 //Atributos de clase
 
-    public capitan: boolean;
-    public marca: Marca[];
-
+    private capitan: boolean;
+    private marca: Marca[];
 
 //Constructores
 
@@ -41,6 +40,8 @@ export class Deportista extends Integrante {
 
 
 }
+
+//CRUD
 
 
 
