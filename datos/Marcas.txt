@@ -1,0 +1,8 @@
+Puntos, 26
+Rebotes, 4
+Asistencias, 7
+Faltas, 4
+Robos, 1
+Bloqueos, 0
+Pérdidas, 5
+

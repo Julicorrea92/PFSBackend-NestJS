@@ -1,6 +1,6 @@
 export abstract class Integrante {
 
-    //Atributos de clase
+//Atributos de clase
 
     protected credencial: string;
     protected apellidoNombres: string;
@@ -9,9 +9,10 @@ export abstract class Integrante {
     protected deporte: string;
     protected rol: string;
 
-    //Constructores
+//Constructores
 
-    public constructor(credencial: string, apellidoNombres: string, fechaNacimiento: string, paisNacimiento: string, deporte: string, rol: string) {
+    public constructor(credencial: string, apellidoNombres: string, fechaNacimiento: string,
+         paisNacimiento: string, deporte: string, rol: string) {
 
         this.credencial = credencial;
         this.apellidoNombres = apellidoNombres;
@@ -22,7 +23,7 @@ export abstract class Integrante {
 
     }
 
-    //getters & setters
+//getters & setters
 
     public setCredencial(newCredencial: string): void {
         this.credencial = newCredencial;
@@ -65,5 +66,7 @@ export abstract class Integrante {
     public getRol(): string {
         return this.rol;
     };
+
+    
 
 }
