@@ -67,4 +67,6 @@ export abstract class Integrante {
         return this.rol;
     };
 
+    
+
 }

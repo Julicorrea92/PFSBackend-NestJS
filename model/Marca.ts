@@ -31,17 +31,4 @@ export class Marca {
     public getValor(): string {
         return this.valor;
     }
-
-
 }
-
-
-
-
-
-
-
-
-
-
-

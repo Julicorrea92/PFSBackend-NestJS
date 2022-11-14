@@ -1,24 +1,24 @@
-import {Delegacion} from "./delegacion";
+import { Delegacion } from "./delegacion";
 
 export class Torneo {
 
-//Atributos de clase
-    
+    //Atributos de clase
+
     private sede: string;
     private edicion: number;
     private deporte: string;
     private tipo: string;
     private participantes: Delegacion[];
 
-//Constructores
+    //Constructores
 
-    public constructor(sede: string,edicion: number, deporte: string,tipo: string, participantes: Delegacion[]){
-        
+    public constructor(sede: string, edicion: number, deporte: string, tipo: string, participantes: Delegacion[]) {
+
         this.sede = sede;
         this.edicion = edicion;
         this.deporte = deporte;
         this.tipo = tipo;
-        this.participantes= participantes;
+        this.participantes = participantes;
     }
 
     //Setters y getters
@@ -61,6 +61,10 @@ export class Torneo {
 
     public setParticipantes(newParticipantes: Delegacion[]): void {
         this.participantes = newParticipantes;
+    }
+
+    public toString(): string {
+        return `Torneo: {Sede: ${this.sede}. Edición: ${this.edicion}. Deporte: ${this.deporte}. Tipo: ${this.tipo}. Participantes: ${this.participantes}}`;
     }
 
 }
